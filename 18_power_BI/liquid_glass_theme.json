@@ -1,0 +1,29 @@
+{
+    "name": "Ultra Liquid Glass",
+    "dataColors": ["#00d2ff", "#3a7bd5", "#6a11cb", "#2575fc", "#00f2fe", "#4facfe", "#43e97b", "#38f9d7"],
+    "background": "#FFFFFF",
+    "foreground": "#111111",
+    "tableAccent": "#3a7bd5",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 80 }],
+                "border": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "radius": 20 }],
+                "dropShadow": [{ "show": true, "color": { "solid": { "color": "#000000" } }, "position": "Outer", "size": 12, "blur": 20, "angle": 135, "transparency": 85 }],
+                "visualHeader": [{ "show": true, "background": { "solid": { "color": "#FFFFFF" } }, "transparency": 100 }]
+            }
+        },
+        "slicer": {
+            "*": {
+                "header": [{ "fontSize": 11, "fontFamily": "Segoe UI Semibold", "fontColor": { "solid": { "color": "#333333" } } }],
+                "items": [{ "fontColor": { "solid": { "color": "#555555" } }, "background": { "solid": { "color": "#FFFFFF" } }, "transparency": 90 }]
+            }
+        },
+        "tableEx": {
+            "*": {
+                "columnHeaders": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#3a7bd5" } }, "fontFamily": "Segoe UI Bold" }],
+                "grid": [{ "outlineColor": { "solid": { "color": "#E6E6E6" } }, "gridVertical": true, "gridHorizontal": true }]
+            }
+        }
+    }
+}

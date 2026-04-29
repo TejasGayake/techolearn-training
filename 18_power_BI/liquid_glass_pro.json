@@ -1,0 +1,23 @@
+{
+    "name": "Liquid Glass PRO",
+    "dataColors": ["#00d2ff", "#3a7bd5", "#6a11cb", "#2575fc", "#00f2fe", "#4facfe", "#43e97b", "#38f9d7"],
+    "background": "#F0F2F5",
+    "foreground": "#1A1A1A",
+    "tableAccent": "#3a7bd5",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 85 }],
+                "border": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "radius": 24 }],
+                "dropShadow": [{ "show": true, "color": { "solid": { "color": "#000000" } }, "position": "Outer", "size": 15, "blur": 25, "angle": 135, "transparency": 92 }],
+                "visualHeader": [{ "show": true, "background": { "solid": { "color": "#FFFFFF" } }, "transparency": 100 }]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{ "color": { "solid": { "color": "#E0EAFC" } }, "transparency": 0 }],
+                "outspacePane": [{ "backgroundColor": { "solid": { "color": "#F0F2F5" } } }]
+            }
+        }
+    }
+}
