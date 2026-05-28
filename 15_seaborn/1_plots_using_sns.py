@@ -4,8 +4,8 @@
 
 
 import seaborn as sns
-# import pandas as pd
-# import numpy as np
+import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 
 # print(sns.get_dataset_names())
@@ -49,10 +49,10 @@ print(avg_bill)
 # plt.show()
 
 # scatter plot ---> why it use
-# ------------
-# sns.scatterplot(x ='total_bill',y = 'tip',data = data)
-# plt.title("total bill vs tips")
-# plt.show()
+------------
+sns.scatterplot(x ='total_bill',y = 'tip',data = data)
+plt.title("total bill vs tips")
+plt.show()
 
 # Histogram
 # ----------
@@ -118,10 +118,10 @@ flights = sns.load_dataset('flights')
 
 # for view multiple plots in one plot
 # {subplot}
-plt.subplot(1,2,1)
-sns.histplot(data['total_bill'])
-# -------------------------------
-plt.subplot(1,2,2)
-sns.boxplot(x = 'day',y='total_bill',data = data)
+# plt.subplot(1,2,1)
+# sns.histplot(data['total_bill'])
+# # -------------------------------
+# plt.subplot(1,2,2)
+# sns.boxplot(x = 'day',y='total_bill',data = data)
 
 plt.show()
